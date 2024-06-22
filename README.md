@@ -16,12 +16,12 @@ Assurez-vous d'avoir les versions de Python et des bibliothèques suivantes inst
 
 Dans le cas contraire, vous pouvez installer les dépendances nécessaires avec:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 
 Ensuite pour éxecuter le code python, utilisez le commande :
 
-python .\YoloDetection5Bim.py 
+- python .\YoloDetection5Bim.py 
 
 
 ## Structure du Code
@@ -35,6 +35,6 @@ Le code est divisé en plusieurs parties :
 - main: Fonction principale pour lancer la détection d'objets dans le flux vidéo de la webcam.
 
 
-### Remarques
+## Remarques
 
 Les étiquettes des classes pour les ordinateurs et les souris sont "laptop" et "mouse" dans le modèle YOLOv8. Je les ai identifié respectivement par les couleurs "Rouge" et "Bleu" pendant la détection.
